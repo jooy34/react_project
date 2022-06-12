@@ -1,0 +1,103 @@
+/* header */
+
+.header {
+  position: relative;
+  margin-top: 60px;
+  padding-top: 64px;
+  --content-width: 1200px;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    display: grid;
+    grid-template:
+      "heading" 20%
+      "image" 25%
+      "buttons" 10%;
+  }
+  .title-h1 {
+    margin: 0px;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .title-p01 {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .contact {
+    opacity: 1;
+    grid-area: buttons / buttons / buttons / buttons;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30%;
+  }
+  .header-img01 {
+    grid-area: image / image / image / image;
+  }
+}
+@media screen and (min-width: 767px) {
+  .content {
+    display: grid;
+    grid-template:
+      "heading image" 55%
+      "buttons image" 45% / 1fr 48%;
+  }
+  .title-h1 {
+    margin: 0px;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 1.4;
+  }
+  .title-p01 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  .br-none {
+    display: none;
+  }
+  .contact {
+    transform: translateY(0px);
+    opacity: 1;
+    grid-area: buttons / buttons / buttons / buttons;
+    margin-left: max(0px, calc((100vw - var(--content-width)) / 2));
+    padding-left: 16px;
+    padding-top: 50px;
+  }
+  .header-img01 {
+    transform: translateY(0px);
+    opacity: 1;
+    grid-area: image / image / image / image;
+  }
+}
+.title {
+  transform: translateY(0px);
+  opacity: 1;
+  grid-area: heading / heading / heading / heading;
+  margin-left: max(0px, calc((100vw - var(--content-width)) / 2));
+  padding-left: 16px;
+  align-self: end;
+}
+img {
+  width: 100%;
+  border-style: none;
+}
+.contact-a01 {
+  text-decoration: none;
+  color: rgb(0, 95, 237);
+  background-color: transparent;
+}
+.coment01 {
+  margin: 16px;
+}
+.coment01-a01 {
+  color: rgb(56, 64, 71);
+  font-size: 14px;
+  text-decoration: underline;
+}

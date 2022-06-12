@@ -1,0 +1,121 @@
+@media screen and (max-width: 768px) {
+  .apps {
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+  .apps-h01 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .Saas-list-items-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-style: none;
+  }
+  .Saas-list-items {
+    display: inline-block;
+    width: 120px;
+    margin: 10px;
+  }
+  .enterprise {
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+  .enterprise-h01 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 1.4;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 767px) {
+  .apps {
+    margin-top: 64px;
+    padding-top: 60px;
+  }
+  .apps-h01 {
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .Saas-list-items-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-style: none;
+  }
+  .Saas-list-items {
+    display: inline-block;
+    width: 150px;
+    margin: 16px;
+  }
+  .enterprise {
+    margin-top: 64px;
+    padding-top: 60px;
+  }
+  .enterprise-h01 {
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 1.4;
+    text-align: center;
+  }
+}
+
+.Saas-list {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.enterprise-content01 {
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.enterprise-content01-slids {
+  display: inline-flex;
+  width: auto;
+}
+
+.enterprise-content01-slid-child01 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  animation: 141.477s linear 0s infinite normal none running slidein01;
+}
+.enterprise-content01-slid-child02 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  animation: 141.477s linear 0s infinite normal none running slidein02;
+}
+.enterprise-slid-item {
+  margin-right: 32px;
+  width: 100%;
+  height: 76px;
+  object-fit: contain;
+  border-style: none;
+}
+@keyframes slidein01 {
+  from {
+    transform: translate(0%);
+  }
+
+  to {
+    transform: translate(-1000%);
+  }
+}
+@keyframes slidein02 {
+  from {
+    transform: translate(500%);
+  }
+
+  to {
+    transform: translate(-500%);
+  }
+}

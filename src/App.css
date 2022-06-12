@@ -1,0 +1,97 @@
+/* common */
+.App {
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(56, 64, 71);
+  font-family: "Helvetica Neue", "Hiragino Sans", sans-serif;
+  font-feature-settings: "palt";
+  font-weight: 400;
+  line-height: 1.5;
+}
+*,
+::before,
+::after {
+  margin: 0px;
+  box-sizing: border-box;
+}
+header {
+  display: block;
+}
+img {
+  border-style: none;
+}
+a {
+  color: rgb(0, 95, 237);
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.common-contact {
+  margin-top: 50px;
+}
+.common-contact-child {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.contact-a01 {
+  text-decoration: none;
+  color: rgb(0, 95, 237);
+  background-color: transparent;
+}
+.contact-btn {
+  width: 280px;
+  height: 60px;
+  margin-right: 8px;
+  margin-left: 8px;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px, rgb(0 0 0 / 8%) 0px 1px 3px;
+  border-radius: 4px;
+  transition: all 0.14s ease 0s;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 95, 237);
+  border: none;
+  opacity: 1;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.contact-btn:hover {
+  text-decoration: none;
+  background-color: rgb(26, 111, 239);
+  margin-top: 4px;
+  margin-bottom: 4px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+.contact-text {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+.contact-arrow {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  min-width: 32px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}

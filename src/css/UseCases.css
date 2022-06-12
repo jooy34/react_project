@@ -1,0 +1,133 @@
+@media screen and (max-width: 768px) {
+  .usecases {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .content01-h01 {
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 800;
+    text-align: center;
+  }
+  .content01-p01 {
+    margin-top: 16px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.8;
+    text-align: center;
+  }
+  .list00 {
+    width: 340px;
+    height: 600px;
+    padding: 20px;
+    margin: 20px;
+    display: grid;
+    gap: 16px;
+
+    box-shadow: rgb(0 0 0 / 4%) 0px 16px 16px, rgb(0 0 0 / 4%) 0px 16px 32px;
+    border-radius: 8px;
+  }
+  .list00-iframe01 {
+    width: 300px;
+    height: 300px;
+    border: none;
+  }
+  .list00-img01 {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    border-style: none;
+  }
+  .list00-h01 {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.4;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+  .list00-p01 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.8;
+    text-align: center;
+  }
+
+  .pricing-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+@media screen and (min-width: 767px) {
+  .usecases {
+    margin-top: 32px;
+    padding-top: 60px;
+  }
+  .content01-h01 {
+    font-size: 42px;
+    line-height: 1.4;
+    font-weight: 800;
+    text-align: center;
+  }
+  .content01-p01 {
+    margin-top: 16px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.8;
+    text-align: center;
+  }
+  .list00 {
+    width: 1000px;
+    padding: 32px;
+    margin: 32px;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 50% 50%;
+    box-shadow: rgb(0 0 0 / 4%) 0px 16px 16px, rgb(0 0 0 / 4%) 0px 16px 32px;
+    border-radius: 8px;
+  }
+  .list00-iframe01 {
+    width: 470px;
+    height: 365px;
+    border: none;
+  }
+  .list00-img01 {
+    width: 470px;
+    height: 365px;
+    object-fit: contain;
+    border-style: none;
+  }
+  .list00-h01 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 1.4;
+    margin-bottom: 48px;
+  }
+  .list00-p01 {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.8;
+  }
+}
+.usecases-content01 {
+  margin: 0px auto;
+  padding-right: 16px;
+  padding-left: 16px;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.usecases-content02 {
+  width: 100%;
+  margin-top: 24px;
+}
+.content02-slider div {
+  outline: none;
+}
+
+.content02-slider div.slick-slide:not(.slick-current) {
+  opacity: 0.6;
+}
