@@ -30,6 +30,24 @@
     line-height: 1.4;
     text-align: center;
   }
+  @keyframes slidein01 {
+    from {
+      transform: translate(0px);
+    }
+
+    to {
+      transform: translate(-4100px);
+    }
+  }
+  @keyframes slidein02 {
+    from {
+      transform: translate(3600px);
+    }
+
+    to {
+      transform: translate(-500px);
+    }
+  }
 }
 @media screen and (min-width: 767px) {
   .apps {
@@ -63,6 +81,24 @@
     line-height: 1.4;
     text-align: center;
   }
+  @keyframes slidein01 {
+    from {
+      transform: translate(0px);
+    }
+
+    to {
+      transform: translate(-4150px);
+    }
+  }
+  @keyframes slidein02 {
+    from {
+      transform: translate(3200px);
+    }
+
+    to {
+      transform: translate(-950px);
+    }
+  }
 }
 
 .Saas-list {
@@ -86,13 +122,13 @@
   display: flex;
   width: 100%;
   align-items: center;
-  animation: 141.477s linear 0s infinite normal none running slidein01;
+  animation: 10s linear infinite normal none running slidein01;
 }
 .enterprise-content01-slid-child02 {
   display: flex;
   width: 100%;
   align-items: center;
-  animation: 141.477s linear 0s infinite normal none running slidein02;
+  animation: 10s linear infinite normal none running slidein02;
 }
 .enterprise-slid-item {
   margin-right: 32px;
@@ -100,22 +136,4 @@
   height: 76px;
   object-fit: contain;
   border-style: none;
-}
-@keyframes slidein01 {
-  from {
-    transform: translate(0%);
-  }
-
-  to {
-    transform: translate(-1000%);
-  }
-}
-@keyframes slidein02 {
-  from {
-    transform: translate(500%);
-  }
-
-  to {
-    transform: translate(-500%);
-  }
 }
